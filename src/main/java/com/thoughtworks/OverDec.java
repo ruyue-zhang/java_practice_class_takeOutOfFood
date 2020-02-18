@@ -16,7 +16,7 @@ public class OverDec implements Discount{
     @Override
     public String getDescription() {
         return  "使用优惠:\n"
-                + "满30减6元，省"+ (totalPrice - getDiscountedPrice() ) +"元\n"
+                + "满30减6元，省"+ (int)(totalPrice - getDiscountedPrice() ) +"元\n"
                 + "-----------------------------------\n";
     }
 }

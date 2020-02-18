@@ -20,6 +20,6 @@ public class NoDiscount implements Discount {
 
     @Override
     public String getDescription() {
-        return null;
+        return "";
     }
 }

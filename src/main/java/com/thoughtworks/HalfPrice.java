@@ -32,7 +32,7 @@ public class HalfPrice implements Discount {
     public String getDescription() {
         return  "使用优惠:\n"
                 + "指定菜品半价("+ halfPriceName.substring(0, halfPriceName.length() - 1) +")，省"
-                + (totalPrice - getDiscountedPrice() ) +"元\n"
+                + (int)(totalPrice - getDiscountedPrice() ) +"元\n"
                 + "-----------------------------------\n";
     }
 }

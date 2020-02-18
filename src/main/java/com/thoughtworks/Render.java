@@ -17,13 +17,13 @@ public class Render {
         String info = "";
         for (SelectedDish selectedDish : selectedDishes) {
             info = info + selectedDish.getName() + " x " + selectedDish.getCount()
-                        + " = " + (selectedDish.getPrice() * selectedDish.getCount()) + "\n";
+                        + " = " + (int)(selectedDish.getPrice() * selectedDish.getCount()) + "元\n";
         }
         return  "============= 订餐明细 =============\n"
                 + info
                 + "-----------------------------------\n"
                 + description
-                + "总计：" + discountTotal + "元\n"
+                + "总计：" + (int)discountTotal + "元\n"
                 + "===================================";
     }
 }
