@@ -35,13 +35,5 @@ public class SelectedDish {
         return count;
     }
 
-    @Override
-    public String toString() {
-        return "SelectedDish{" +
-                "id='" + id + '\'' +
-                ", name='" + name + '\'' +
-                ", price=" + price +
-                ", count=" + count +
-                '}';
-    }
+
 }
