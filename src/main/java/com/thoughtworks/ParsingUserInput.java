@@ -28,7 +28,6 @@ public class ParsingUserInput {
                 }
             }
         }
-        //System.out.println(selectedDishes);
         return selectedDishes;
     }
 
